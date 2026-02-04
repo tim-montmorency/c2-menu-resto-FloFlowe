@@ -3,19 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Nom du Restaurant</title>
+    <title>Menu - Les plats Masala</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 
-        INSTRUCTIONS :
-        1. Remplacez "Nom du Restaurant" par le nom de votre choix
-        2. Créez une structure sémantique (section, article, header, etc.)
-        3. Utilisez des listes (ul/li) pour les items de menu
-        4. Ajoutez des classes cohérentes (BEM recommandé)
+    <header>
+         <hr>
+         <h1>Les plats Masala</h1>
+         <hr>
+         <br>
+    </header>
 
-        Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
-    -->
-    
+    <main>
+        <br>
+
+        <!--  SECTION SOUPE  -->
+        <section class="categorie">
+            <h2>Soupes</h2>
+            <hr>
+            <br>
+            <ul>
+                <li class="item">
+                    <span>V</span>
+                    <h4 class="item__nom badge">Soupe Daal</h4>
+                    <p class="item__prix">6.00$</p>
+                    <p>Soupe aux lentilles</p>
+                </li>
+            
+                <br>
+
+                <li class="item">
+                    <h4 class="item__nom">Soupe Mulligatawny</h4>
+                    <p class="item__prix">7.00$</p>
+                    <p>Soupe aux lentilles, poulet, légumes et riz</p>
+                </li>
+            
+                <br>
+        
+                <li class="item">
+                    <h4 class="item__nom">Soupe Mulligatawny</h4>
+                    <p class="item__prix">7.00$</p>
+                    <p>Soupe aux lentilles, poulet, légumes et riz</p>
+                </li>
+            </ul>
+        </section>
+
+        <br>
+
+        <!--  SECTION HORS D'OEUVRES  -->
+        <section class="categorie">
+            <h2>Hors d'oeuvre</h2>
+            <hr>
+            <br>
+            <ul>
+                <li class="item">
+                    <span>V</span>
+                    <h4 class="item__nom badge">Samosa aux légumes</h4>
+                    <p class="item__prix">6.50$</p>
+                    <p>Pâte frite farcie aux légumes</p>
+                </li>
+            
+                <br>
+
+                <li class="item">
+                    <span>V</span>
+                    <h4 class="item__nom badge">Palak Paneer</h4>
+                    <p class="item__prix">10.00$</p>
+                    <p>Cubes de fromage paneer dans une sauce aux épinards</p>
+                </li>
+            
+                <br>
+        
+                <li class="item">
+                    <span>V</span>
+                    <h4 class="item__nom badge">Oignons Bhajia</h4>
+                    <p class="item__prix">8.00$</p>
+                    <p>Oignons tranchés et frits à la farine de pois chiche</p>
+                </li>
+            </ul>
+        </section>
+
+        <br>
+
+        <!--  SECTION REPAS PRINCIPAUX  -->
+        <section class="categorie">
+            <h2>Plats principaux</h2>
+            <hr>
+            <br>
+            <ul>
+                <li class="item">
+                    <h4 class="item__nom">Poulet au beurre</h4>
+                    <p class="item__prix">20.00$</p>
+                    <p>Morceaux de poulet dans la sauce au beurre, servi avec pain naan</p>
+                </li>
+            
+                <br>
+
+                <li class="item">
+                    <span>V</span>
+                    <h4 class="item__nom badge">Daul Makhni</h4>
+                    <p class="item__prix">16.00$</p>
+                    <p>Lentilles noires cuites dans une sauce crémeuse, servi ave pain naan</p>
+                </li>
+            
+                <br>
+        
+                <li class="item">
+                    <h4 class="item__nom">Poulet tandoori</h4>
+                    <p class="item__prix">20.00$</p>
+                    <p>Demi poulet mariné et cuit au charbon de bois, servi avec pain naan</p>
+                </li>
+            </ul>
+        </section>
+
+    </main>
 </body>
 </html>
