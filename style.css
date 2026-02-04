@@ -1,7 +1,7 @@
 /**
  * MENU DE RESTAURANT
- * Nom de l'étudiant : [Votre nom]
- * Date : [Date]
+ * Nom de l'étudiant : Florence Emond
+ * Date : 28 janvier 2026
 
    Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
  */
@@ -17,13 +17,82 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
+    font-family: 'SN Pro', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
     font-size: 1rem;
     line-height: 1.6;
     color: #333; /* Ajutez avec votre couleur de texte principale */
-    background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+    background-color: #dda15e; /* Ajutez avec votre couleur de fond principale */
 }
 
 /* ========================================
    VOTRE CODE CSS ICI
    ======================================== */
+
+
+/*  HEADER  */
+header {
+    display: block;
+    text-align: center;
+}
+
+
+/*  MAIN  */
+main {
+    max-width: 800px;
+    margin: 0 auto;    
+}
+
+section {
+    padding: 5px;
+    border:  dotted 4px #bc6c25;
+    background-color: #fefae0;
+}
+
+
+/* TEXTE */
+ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-weight: 900;
+    color:#7C4718;
+}
+
+h2 {
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+span {
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: bold;
+    color: white;
+    background-color: #008000;
+    border-radius: 200px;
+}
+
+/*  CLASSE  */
+.item__prix {
+    font-weight: 800;
+    float: right;
+    color: #432818 ;
+    padding-right: 10px;
+}
+
+.item__prix:hover {
+    color: red;
+}
+
+.item__nom {
+    color: #432818 ;
+}
+
+.badge {
+    padding-left: 30px;
+}
+
