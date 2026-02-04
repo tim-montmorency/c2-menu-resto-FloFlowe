@@ -22,6 +22,7 @@ J'ai créé un menu de restaurant indien. J'ai utilisé une palette de couleur c
 - Border : #bc6c25
 - Titre : #7C4718
 - Sous-titres : #432818
+- Badge Végé : #008000
 
 **Police utilisée :**
 
