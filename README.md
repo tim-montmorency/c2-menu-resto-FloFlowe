@@ -33,6 +33,6 @@ J'ai décidé de séparer mes catégories entièrement car je trouvais que cela 
 
 ## Difficultés rencontrées
 
-Je ne me rappelais pas comment mettre des éléments à la droite (prix) et j'ai donc fait de la recherche pour savoir comment faire cette partie.
+Je ne me rappelais pas comment mettre des éléments à la droite (prix) et j'ai donc fait de la recherche pour savoir comment faire cette partie. J'ai aussi eu de la difficulté à mettre les badges stylisés mais j'y suis arrivée après quelques essais.
 
 
